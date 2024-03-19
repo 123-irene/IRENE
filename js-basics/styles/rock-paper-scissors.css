@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(27, 26, 26);
+    font-family: Arial;
+    color: white;
+   
+  }
+  .game {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  img {
+    height: 50px;
+  }
+  .scissors-button ,.paper-button ,.rock-button{
+    height: 120px;
+    border-radius: 60px;
+    width: 120px;
+    margin-right: 17px;
+    border: 3px solid white;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .reset-button{
+    padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border: none;
+  }
+  .result-Dom{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .score-Dom{
+    margin-top: 60px;
+  }
